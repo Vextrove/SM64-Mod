@@ -15,7 +15,7 @@
 #define COIN_LAVA_FLICKER
 
 // Allow for retries on collecting the remaining blue coins from a blue coin switch.
-//#define BLUE_COIN_SWITCH_RETRY
+#define BLUE_COIN_SWITCH_RETRY
 
 // -- GOOMBA --
 
@@ -47,7 +47,7 @@
 // -- POWER STAR --
 
 // Collecting a Power Star will fully heal Mario.
-#define POWER_STARS_HEAL
+// #define POWER_STARS_HEAL
 
 // -- 1-UP MUSHROOM --
 
@@ -62,7 +62,7 @@
 // -- CHAIN CHOMP --
 
 // The number of chain balls the Chain Chomp has.  Vanilla is 5.
-#define CHAIN_CHOMP_NUM_SEGMENTS 5
+#define CHAIN_CHOMP_NUM_SEGMENTS 50
 
 // -- POKEY --
 
@@ -72,4 +72,4 @@
 // -- WIGGLER --
 
 // The number of segments Wiggler has, not including the head. Vanilla is 4.
-#define WIGGLER_NUM_SEGMENTS     4
+#define WIGGLER_NUM_SEGMENTS     24

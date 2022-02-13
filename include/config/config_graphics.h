@@ -8,10 +8,10 @@
 #define GFX_POOL_SIZE 10000
 
 // Show a watermark in the title screen that reads "Made with HackerSM64", instead of the copyright message
-#define INTRO_CREDIT
+// #define INTRO_CREDIT
 
 // Spawn floombas in the title screen
-#define INTRO_FLOOMBAS
+// #define INTRO_FLOOMBAS
 
 // Enable widescreen (16:9) support
 #define WIDE
@@ -24,14 +24,14 @@
 // When this option is enabled, LODs will ONLY work on console.
 // When this option is disabled, LODs will work regardless of whether console or emulator is used.
 // Regardless of whether this setting is enabled or not, you can use gIsConsole to wrap your own code in a console check.
-#define AUTO_LOD
+// #define AUTO_LOD
 
 // Include Puppyprint, a display library for text and large images.
 // Automatically included when PUPPYPRINT_DEBUG is enabled
 // #define PUPPYPRINT
 
 // Disable AA (Improves console performance but causes visible seams between unconnected geometry).
-// #define DISABLE_AA
+#define DISABLE_AA
 
 // Makes the coins ia8 64x64 instead of ia16 32x32. Uses new ia8 textures so that vanilla coins look better.
 #define IA8_COINS
@@ -52,13 +52,13 @@
  * Also, this also disables anti-aliasing on Mario.
  * NOTE: Regarding performance, silhouette seems to lose 1-2 frames on console.
  */
-// #define SILHOUETTE 127
+#define SILHOUETTE 127
 
 // Use 64x64 quarter shadow textures (Vanilla are 16x16).
 #define HD_SHADOWS
 
 // Makes certain objects (mainly trees) transparent when the camera gets close.
-// #define OBJ_OPACITY_BY_CAM_DIST
+#define OBJ_OPACITY_BY_CAM_DIST
 
 // Fixes the game reading the ia8 burn smoke texture as an rgba16.
 #define BURN_SMOKE_FIX
